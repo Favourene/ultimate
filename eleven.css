@@ -1,0 +1,252 @@
+
+html{
+    scroll-behavior: smooth;
+}
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 98.5%;
+    margin-top: -8px;
+
+}
+@media screen and (max-width: 600px){
+    .topnav{
+        width: 96%;
+    }
+}
+.topnav #mylinks{
+    display: none;
+}
+.topnav a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+.topnav  a.home{
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.active{
+    background-color: #4cAF50;
+    color: white;
+}
+
+#sec1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 700px;
+}
+#sec1 h1{
+    color: white;
+    font-size: 70px;
+    padding-top: 100px;
+    flex: 1;
+}
+@media screen and (max-width: 600px){
+    #sec1 h1{
+        color: white;
+        font-size: 40px;
+    }
+}
+#sec1 h3{
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+}
+@media screen and (max-width: 600px){
+    #sec1 h3{
+        color: white;
+        font-size: 20px;
+    }
+}
+#sec2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 700px;
+}
+#sec2 h2{
+    padding-top: 60px;
+    color: white;
+    font-size: 70px;
+    flex: 1;
+    }
+    @media screen and (max-width: 600px){
+    #sec2 h2{
+        color: white;
+        font-size: 40px;
+    }
+    }
+#sec2 h4{
+    color: white;
+    font-size: 30px;
+}
+@media screen and (max-width: 600px){
+    #sec2 h4{
+        color: white;
+        font-size: 20px;
+    }
+}
+#sec3{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(3.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 700px;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 80px;
+}
+#dell{
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    color: white;
+}
+@media screen and (max-width: 600px){
+    #dell{
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    img{
+        width: 120px;
+        height: 120px;
+        border-radius: 30px;
+        box-shadow: 4px 4px 20px white;
+    }
+    #dell h4{
+        color: white;
+    font-size: 10px;
+    }
+}
+#dell, h4{
+    padding-top: 0;
+    font-size: 20px;
+}
+img{
+    border-radius: 30px;
+    box-shadow: 4px 4px 20px white;
+}
+#sec4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(4.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 700px;
+
+}
+#sec4 h2{
+    color: white;
+    font-size: 70px;
+    padding-top: 100px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+@media screen and (max-width: 600px){
+    #sec4 h2{
+        color: white;
+        font-size: 40px;
+    }
+    }
+#sec4 p{
+    color: white;
+    font-size: 30px;
+}
+@media screen and (max-width: 600px){
+    #sec4 p{
+        color: white;
+        font-size: 30px;
+    }
+}
+#sec5{
+    background: white;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 700px;
+
+}
+#sec5 h1{
+    color: white;
+    font-size: 70px;
+    padding-top: 100px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+
+}
+@media screen and (max-width: 600px){
+    #sec5 h1{
+        color: white;
+        font-size: 40px;
+    }
+    }
+#hot{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+
+}
+@media screen and (max-width: 600px){
+    #hot{
+        height:300px;
+    }
+    }
+#h1{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+#p{
+    margin-block-end: 0;
+    margin-block-start: 0;
+    color: white;
+    font-size: 30px;
+}
+@media screen and (max-width: 600px){
+    #sec5 p{
+        font-size: 20px;
+    }
+}
+.mother{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font: 16px sans-serif;
+    font-family: proxima-nova,sans-serif;
+}
+@media screen and (max-width: 600px){
+    .offspring{
+        font-size: 20px;
+    }
+}
+.offspring{
+    color: #00263e;
+    padding-right:  15px;
+}
